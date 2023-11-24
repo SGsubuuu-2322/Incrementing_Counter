@@ -1,3 +1,5 @@
+/* This is the styling sheet for this project written using CSS3 technology... */
+/* These are some general stylings for the whole project... */
 @import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
 
 * {
@@ -15,19 +17,22 @@ body {
   margin: 0;
 }
 
+/* This is for counter container... */
 .counter-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 30px 50px;
   text-align: center;
+  margin: 30px 50px;
 }
 
+/* This is for counter... */
 .counter {
   font-size: 50px;
   margin-top: 10px;
 }
 
+/* This is for making it responsive... */
 @media (max-width: 580px) {
   body {
     flex-direction: column;
